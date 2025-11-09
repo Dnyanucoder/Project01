@@ -8,6 +8,7 @@ class Student:
         self.root = root
         self.root.title("Student Management System")
         self.root.geometry("1350x700+0+0")
+        self.root.config(bg='blue')
 
         title = Label(self.root,text="Student Management System",bd=6,relief=GROOVE,font=("Algerian",30,'bold'),bg='dark blue',fg='white' )
         title.pack(side=TOP,fill=X)
